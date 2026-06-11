@@ -1,0 +1,9 @@
+<svg width="640" height="320" viewBox="0 0 640 320" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="640" height="320" rx="20" fill="#E5E7EB"/>
+  <rect x="48" y="70" width="544" height="180" rx="16" fill="#D1D5DB"/>
+  <rect x="74" y="98" width="220" height="34" rx="8" fill="#9CA3AF"/>
+  <rect x="74" y="148" width="84" height="84" rx="12" fill="#6B7280"/>
+  <rect x="172" y="148" width="84" height="84" rx="12" fill="#4B5563"/>
+  <rect x="328" y="98" width="238" height="134" rx="12" fill="#9CA3AF"/>
+  <text x="346" y="175" fill="#1F2937" font-family="Arial, sans-serif" font-size="30" font-weight="700">POSTO</text>
+</svg>
