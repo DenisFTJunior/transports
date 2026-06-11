@@ -8,6 +8,7 @@ type StationCardProps = {
 export function StationCard({ station, onSelect }: StationCardProps) {
   const hasVacancy = station.availableSlots > 0;
   const statusLabel = hasVacancy ? "Com vagas" : "Sem vagas";
+  const imageSrc = `${process.env.NEXT_PUBLIC_BASE_PATH ?? ""}${station.imageUrl}`;
 
   return (
     <button
@@ -21,7 +22,7 @@ export function StationCard({ station, onSelect }: StationCardProps) {
       }`}
     >
       <img
-        src={station.imageUrl}
+        src={imageSrc}
         alt={`Imagem do ${station.name}`}
         className="mb-3 h-36 w-full rounded-md object-cover"
       />
